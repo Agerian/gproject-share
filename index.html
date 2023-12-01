@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>RecipEase</title>
+</head>
+
+<body>
+  <header>
+    <h1>RecipEase</h1>
+    <p>Your Personalized Recipe Companion</p>
+  </header>
+
+  <section id="search">
+    <h2>Discover Delicious Recipes</h2>
+    <div>
+      <input type="text" id="recipeSearch" placeholder="Search for Recipes">
+      <button id="searchButton">Search</button>
+
+
+      
+    </div>
+  </section>
+
+  <section id="featuredRecipes">
+    <h2>Featured Recipes</h2>
+    
+    <div class="recipeCard">
+      <img src="http://placekitten.com/200/300" alt="Recipe 1">
+      <h3>Recipe Title 1</h3>
+      <p>Brief description of recipe.</p>
+    </div>
+
+    <div class="recipeCard">
+      <img src="http://placekitten.com/200/300" alt="Recipe 2">
+      <h3>Recipe Title 2</h3>
+      <p>Brief description of recipe.</p>
+    </div>
+
+
+        <!-- Container for dynamically generated recipe cards -->
+        <div id="recipeList"></div>
+
+        <div id="recipeDetails"></div>
+  </section>
+  
+
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
